@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<body class="text-[#ADC1E2] overflow-hidden">
+	<div class="flex h-screen">
+		{{ include('common/_menu.html.twig') }}
+		<div class="w-[650px] flex-initial overflow-y-auto">
+			{{ include('common/_header.html.twig') }}
+			{% if page == "overview" %}
+				{{ include('gamepages/_overview.html.twig') }}
+			{% elseif page == "news" %}
+   				{{ include('gamepages/_news.html.twig') }}
+			{% elseif page == "galaxynews" %}
+   				{{ include('gamepages/_galaxynews.html.twig') }}
+			{% elseif page == "communication" %}
+   				{{ include('gamepages/_communication.html.twig') }}
+			{% else %}
+   				{{ include('gamepages/_overview.html.twig') }}
+			{% endif %}
+		</div>	
+	</div>
+</body>
+
+{% endblock %}

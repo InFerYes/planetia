@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<body class="text-[#ADC1E2] overflow-hidden">
+	<div class="flex h-screen">
+		{{ include('common/_menu.html.twig') }}
+		<div class="w-[650px] flex-initial overflow-y-auto">
+			{{ include('common/_header.html.twig') }}
+			{{ include('gamepages/_overview.html.twig') }}
+		</div>	
+	</div>
+</body>
+
+{% endblock %}
