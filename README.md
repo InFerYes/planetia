@@ -41,11 +41,11 @@ This project uses the following building blocks:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/project-name.git
+   git clone https://github.com/InFerYes/planetia.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd project-name
+   cd planetia
    ```
 3. Install the required dependencies:
    ```bash
