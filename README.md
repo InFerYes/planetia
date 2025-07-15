@@ -55,10 +55,11 @@ This project uses the following building blocks:
    ```bash
    symfony serve
    ```
-4. (Optionally) Check the recipes used (or to be used) in this project:
+5. (Optionally) Check the recipes used (or to be used) in this project:
    ```bash
    composer recipes
    ```
+6. Browse to [http://127.0.0.1:8000](http://127.0.0.1:8000)
    
 Any changes in the twig templates or tailwind classes will reflect immediately after saving (check `.symfony.local.yaml`).
 
