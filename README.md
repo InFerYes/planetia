@@ -81,7 +81,7 @@ Any changes in the twig templates or tailwind classes will reflect immediately a
 
 ## License
 
-This project is licensed under the [EUPL 1.2](LICENSE) - see the [COPYING](COPYING) file for details.
+This project is licensed under the [EUPL 1.2](COPYING) - see the [COPYING](COPYING) file for details.
 
 ## Contact
 
