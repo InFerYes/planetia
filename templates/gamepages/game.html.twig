@@ -16,7 +16,13 @@
 			{% elseif page == "communication" %}
    				{{ include('gamepages/_communication.html.twig') }}
 			{% elseif page == "journal" %}
+   				{{ include('gamepages/_journal.html.twig') }}
+			{% elseif page == "politics" %}
    				{{ include('gamepages/_politics.html.twig') }}
+			{% elseif page == "irc" %}
+   				{{ include('gamepages/_irc.html.twig') }}
+			{% elseif page == "research" %}
+   				{{ include('gamepages/_research.html.twig') }}
 			{% else %}
    				{{ include('gamepages/_overview.html.twig') }}
 			{% endif %}
